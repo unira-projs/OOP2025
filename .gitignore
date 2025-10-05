@@ -1,0 +1,100 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~undo-tree~
+
+# Ignore local environment variables
+.env
+.env.*
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore mypy type-checking cache
+.mypy_cache/
+
+# Ignore Pyre type-checking cache
+.pyre/
+
+# Ignore profiling data
+.prof
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore AWS SAM build artifacts
+.aws-sam/
+
+# Ignore Flask instance folder
+instance/
+
+# Ignore Celery beat schedule file
+celerybeat-schedule
+
+# Ignore SageMath notebook files
+*.sage.py
+
+# Ignore Sphinx documentation
+docs/_build/
+
+# Ignore PyInstaller artifacts
+*.spec
+
+# Ignore coverage reports
+.coverage
+*.cover
+coverage.xml
+
+# Ignore temporary files created by editors
+*.orig

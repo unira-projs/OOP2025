@@ -1,4 +1,4 @@
-## 🎯 Day 2 — Basic Inheritance
+## 🎯 Day 2 — Method Override
 
 Studi Kasus: Transportasi
 

@@ -22,7 +22,7 @@ Setiap hari kamu akan menyelesaikan satu studi kasus yang mengasah pemahaman kon
 ## ⚙️ Cara Kerja
 1. Buka folder sesuai hari tantangan.
 2. Baca `README.md` dalam folder tersebut.
-3. Edit file `main.py` untuk menyelesaikan soal.
+3. Edit file `template.py` untuk menyelesaikan soal.
 4. Jalankan test otomatis:
    ```bash
    pytest
