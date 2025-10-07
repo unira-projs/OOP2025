@@ -1,12 +1,20 @@
-# === Mulai kode di bawah ini ===
-
 class Binatang:
-    pass
+    def __init__(self, nama, umur):
+        self.nama = nama
+        self.umur = umur
 
 class Mamalia(Binatang):
-    pass
+    def __init__(self, nama, umur, peliharaan):
+        super().__init__(nama, umur)
+        self.peliharaan = peliharaan
 
-# === Contoh penggunaan ===
+    def deskripsikan(self):
+        status = "Ya" if self.peliharaan else "Tidak"
+        return f"Nama: {self.nama}, Umur: {self.umur} tahun, Mamalia peliharaan: {status}"
+
 if __name__ == "__main__":
-    # TODO 3: Buat objek Mamalia dan tampilkan hasilnya
-    pass
+    mamalia1 = Mamalia("Anjing", 4, True)
+    mamalia2 = Mamalia("Paus", 25, False)
+
+    print(mamalia1.deskripsikan())
+    print(mamalia2.deskripsikan())
